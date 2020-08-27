@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalendarExtended</name>
+    </assembly>
+    <members>
+        <member name="T:CalendarExtended.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:CalendarExtended.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:CalendarExtended.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:CalendarExtended.CalendarExtended">
+            <summary>
+            Extended Month Calendar Control for Windows Forms
+            </summary>
+        </member>
+        <member name="F:CalendarExtended.CalendarExtended.emptyCellSymbol">
+            <summary>
+            Symbol Character for filling empty cells
+            </summary>
+        </member>
+        <member name="M:CalendarExtended.CalendarExtended.#ctor">
+            <summary>
+            Default Constructor for Extended Month Calendar Control
+            </summary>
+        </member>
+        <member name="M:CalendarExtended.CalendarExtended.RefreshCalendar">
+            <summary>
+            RefreshCalendar method refills cells with CreateCalendar
+            </summary>
+        </member>
+        <member name="F:CalendarExtended.CalendarExtended.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CalendarExtended.CalendarExtended.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CalendarExtended.CalendarExtended.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:CalendarExtended.CalendarExtended.DataGrid">
+            <summary>
+            Access Calendar DataGridView
+            </summary>
+        </member>
+        <member name="P:CalendarExtended.CalendarExtended.TitleLabel">
+            <summary>
+            Access Year Month Label
+            </summary>
+        </member>
+        <member name="P:CalendarExtended.CalendarExtended.DetailLabel">
+            <summary>
+            Access Day Detail Label
+            </summary>
+        </member>
+        <member name="P:CalendarExtended.CalendarExtended.BackwordButton">
+            <summary>
+            Access Previous Month Button
+            </summary>
+        </member>
+        <member name="P:CalendarExtended.CalendarExtended.ResetButton">
+            <summary>
+            Access Goto Today Button
+            </summary>
+        </member>
+        <member name="P:CalendarExtended.CalendarExtended.ForwordButton">
+            <summary>
+            Access Next Month Button
+            </summary>
+        </member>
+        <member name="M:CalendarExtended.ArraySplit.SplitArray(System.String[],System.Int32)">
+            <summary>
+            Split arrey an array into n parts
+            </summary>
+            <param name="ArrInput">Array to be split</param>
+            <param name="n_column">Number of parts</param>
+            <returns>An array of string</returns>
+        </member>
+    </members>
+</doc>
